@@ -1,0 +1,8 @@
+[build]
+	publish = "build/"
+	command = "npm run build"
+[context.production]
+  command = "npm run build:prod"
+[context.staging]
+  command = "npm run build:staging"
+

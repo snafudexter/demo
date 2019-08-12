@@ -1,0 +1,29 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+body 
+{
+    height: 100%;
+}
+
+.content {
+    page-break-after: always;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 0;
+    }
+    html,
+    body {
+        height: 210mm;
+        width: 297mm;
+    }
+    .content {
+        page-break-after: always;
+        background: #974e1d;
+    }
+}
