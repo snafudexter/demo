@@ -11,7 +11,7 @@ const Header = props => (
 				<div className="content-header-item mr-5">
 					<Link to="/dashboard" className="link-effect font-w700" href="">
 						{ /*<i className="si si-fire text-primary"></i>*/}
-							<span className="font-size-xl text-dual-primary-dark"></span><span className="font-size-xl text-primary">Blaze<small> - Walia & Co</small></span>
+							<span className="font-size-xl text-dual-primary-dark"></span><span className="font-size-xl text-primary">Tape<small> - Erp</small></span>
 					</Link>
 				</div>
 			</div>
