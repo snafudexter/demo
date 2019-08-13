@@ -13,7 +13,7 @@ class Login extends Component {
 				>
 				<Alert stack={{limit: 3}} />				
 					<div className="py-30 px-5 text-center">
-						<img src={Image} style={{ maxWidth: '150px' }} />
+						{/* <img src={Image} style={{ maxWidth: '150px' }} /> */}
 						<h1 className="h2 font-w700 mt-50 mb-10">
 							Welcome to Your Dashboard
 						</h1>
