@@ -161,7 +161,7 @@ class InstallationTableWrapper extends Component {
         width: 100
       }, {
         key: 'bajajReviewDate',
-        name: 'Bajaj Review Date',
+        name: 'Review Date',
         filterable: true,
         resizable: true,
         width: 100

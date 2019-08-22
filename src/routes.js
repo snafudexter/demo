@@ -87,22 +87,22 @@ const routes = [
     name: "dashboard",
     exact: false,
     component: Dashboard,
-    role: ["ADMIN", "BAJAJ", "PRINTER"]
+    role: ["ADMIN", "TATA", "PRINTER"]
   },
 
-  {
-    path: "/invoicing",
-    name: "invoicing",
-    exact: true,
-    component: Invoicing,
-    role: ["ADMIN", "BAJAJ"]
-  },
+  // {
+  //   path: "/invoicing",
+  //   name: "invoicing",
+  //   exact: true,
+  //   component: Invoicing,
+  //   role: ["ADMIN", "BAJAJ"]
+  // },
   {
     path: "/account",
     name: "useraccount",
     exact: true,
     component: AccountForm,
-    role: ["ADMIN", "BAJAJ"]
+    role: ["ADMIN", "TATA"]
   },
   // Campaigns
   {
@@ -110,21 +110,21 @@ const routes = [
     name: "campaigns",
     exact: true,
     component: CampaignsListPage,
-    role: ["ADMIN", "BAJAJ"]
+    role: ["ADMIN", "TATA"]
   },
   {
     path: "/addcampaign",
     name: "campaignsAdd",
     exact: true,
     component: CampaignAddPage,
-    role: ["ADMIN", "BAJAJ"]
+    role: ["ADMIN", "TATA"]
   },
   {
     path: "/approvals",
     name: "approvals",
     exact: true,
     component: Approvals,
-    role: ["ADMIN", "BAJAJ"]
+    role: ["ADMIN", "TATA"]
   },
   {
     path: "/accountapproval",
@@ -168,7 +168,7 @@ const routes = [
     name: "branding",
     exact: true,
     component: Branding,
-    role: ["ADMIN", "BAJAJ"],
+    role: ["ADMIN", "TATA"],
     routes: [
       // Stores
       {
@@ -195,34 +195,34 @@ const routes = [
     ]
   },
   // Reports
-  {
-    path: "/pivotreports",
-    name: "pivotreports",
-    exact: true,
-    component: PivotReportsPage,
-    role: ["ADMIN", "BAJAJ"]
-  },
-  {
-    path: "/generalreports",
-    name: "generalreports",
-    exact: true,
-    component: GeneralReportsPage,
-    role: ["ADMIN", "BAJAJ"]
-  },
-  {
-    path: "/installationreports",
-    name: "installationreports",
-    exact: true,
-    component: InstallationReportsPage,
-    role: ["ADMIN", "BAJAJ"]
-  },
-  {
-    path: "/compmap",
-    name: "competitionmapping",
-    exact: true,
-    component: CompetitionMapping,
-    role: ["ADMIN", "BAJAJ"]
-  },
+  // {
+  //   path: "/pivotreports",
+  //   name: "pivotreports",
+  //   exact: true,
+  //   component: PivotReportsPage,
+  //   role: ["ADMIN", "BAJAJ"]
+  // },
+  // {
+  //   path: "/generalreports",
+  //   name: "generalreports",
+  //   exact: true,
+  //   component: GeneralReportsPage,
+  //   role: ["ADMIN", "BAJAJ"]
+  // },
+  // {
+  //   path: "/installationreports",
+  //   name: "installationreports",
+  //   exact: true,
+  //   component: InstallationReportsPage,
+  //   role: ["ADMIN", "BAJAJ"]
+  // },
+  // {
+  //   path: "/compmap",
+  //   name: "competitionmapping",
+  //   exact: true,
+  //   component: CompetitionMapping,
+  //   role: ["ADMIN", "BAJAJ"]
+  // },
   // Review
   {
     path: "/review",
@@ -295,55 +295,55 @@ const routes = [
       }
     ]
   },
-  {
-    path: "/pq",
-    name: "pq",
-    exact: true,
-    component: PrinterQuotationContainer,
-    role: ["ADMIN"]
-  },
-  {
-    path: "/viewpq",
-    name: "viewpq",
-    exact: true,
-    component: ViewPrinterQuotWrapper,
-    role: ["ADMIN"]
-  },
-  {
-    path: "/po",
-    name: "po",
-    exact: true,
-    component: PurchaseOrderContainer,
-    role: ["ADMIN"]
-  },
-  {
-    path: "/costing",
-    name: "costing",
-    exact: true,
-    component: CostingContainer,
-    role: ["BAJAJ", "ADMIN"]
-  },
-  {
-    path: "/viewpo",
-    name: "viewpo",
-    exact: true,
-    component: POView,
-    role: ["ADMIN"]
-  },
-  {
-    path: "/billing",
-    name: "billing",
-    exact: true,
-    component: BillingContainer,
-    role: ["ADMIN"]
-  },
-  {
-    path: "/viewbill",
-    name: "viewbill",
-    exact: true,
-    component: BillingView,
-    role: ["ADMIN"]
-  }
+  // {
+  //   path: "/pq",
+  //   name: "pq",
+  //   exact: true,
+  //   component: PrinterQuotationContainer,
+  //   role: ["ADMIN"]
+  // },
+  // {
+  //   path: "/viewpq",
+  //   name: "viewpq",
+  //   exact: true,
+  //   component: ViewPrinterQuotWrapper,
+  //   role: ["ADMIN"]
+  // },
+  // {
+  //   path: "/po",
+  //   name: "po",
+  //   exact: true,
+  //   component: PurchaseOrderContainer,
+  //   role: ["ADMIN"]
+  // },
+  // {
+  //   path: "/costing",
+  //   name: "costing",
+  //   exact: true,
+  //   component: CostingContainer,
+  //   role: ["BAJAJ", "ADMIN"]
+  // },
+  // {
+  //   path: "/viewpo",
+  //   name: "viewpo",
+  //   exact: true,
+  //   component: POView,
+  //   role: ["ADMIN"]
+  // },
+  // {
+  //   path: "/billing",
+  //   name: "billing",
+  //   exact: true,
+  //   component: BillingContainer,
+  //   role: ["ADMIN"]
+  // },
+  // {
+  //   path: "/viewbill",
+  //   name: "viewbill",
+  //   exact: true,
+  //   component: BillingView,
+  //   role: ["ADMIN"]
+  // }
 ];
 
 export default routes;

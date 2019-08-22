@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class TilesBlock extends Component{
  render(){
      return(
-        <div className="row gutters-tiny" style={{ "paddingBottom" : 20 }}>
+        <div className="row gutters-tiny justify-content-center" style={{ "paddingBottom" : 20,width:"100%"}}>
         <div className="col-6 col-md-4 col-xl-2">
           <Link to="/dashboard" className="block text-center"
           style={{"backgroundColor":"#eee"}} >
@@ -39,7 +39,7 @@ class TilesBlock extends Component{
           </Link>
         </div>
         <div className="col-6 col-md-4 col-xl-2">
-          <Link to="/generalreports" className="block text-center"
+          <Link to="#" className="block text-center"
           style={{"backgroundColor":"#eee"}} >
             <div className="block-content">
               <p className="mt-5">
@@ -60,7 +60,7 @@ class TilesBlock extends Component{
             </div>
           </Link>
         </div>
-        <div className="col-6 col-md-4 col-xl-2">
+        {/* <div className="col-6 col-md-4 col-xl-2">
           <Link to="/invoicing" className="block text-center"
           style={{"backgroundColor":"#eee"}} >
             <div className="block-content">
@@ -70,7 +70,7 @@ class TilesBlock extends Component{
               <p className="font-w600">Invoicing</p>
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
      )
  }

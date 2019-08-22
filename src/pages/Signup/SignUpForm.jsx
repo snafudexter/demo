@@ -63,7 +63,7 @@ class SignUpForm extends Component {
       },
     }).then((res) => {
 
-      localStorage.setItem('blaze-auth-token',res.data.signup.token);
+      localStorage.setItem('blaze-tata-auth-token',res.data.signup.token);
       // this.props.history.replace('/');
       window.location.href="/branding/view"
 

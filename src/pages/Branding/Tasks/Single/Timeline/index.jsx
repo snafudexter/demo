@@ -23,8 +23,8 @@ class Timeline extends Component {
     if(this.props.task.startDate) timelineArr.push({date: this.props.task.startDate, message: 'Task Created & Started.'})
     if(this.props.task.recceOnDate) timelineArr.push({date: this.props.task.recceOnDate, message: `Recce Started By ${this.props.task.recceUser ? this.props.task.recceUser.name : 'Admin'}.`})
     if(this.props.task.recceDoneDate) timelineArr.push({date: this.props.task.recceDoneDate, message: `Recce Done & Completed By ${this.props.task.recceUser ? this.props.task.recceUser.name : 'Admin'}.`})
-    if(this.props.task.approvalSentDate) timelineArr.push({date: this.props.task.approvalSentDate, message: 'Task sent to Bajaj for approval.'})
-    if(this.props.task.bajajReviewDate) timelineArr.push({date: this.props.task.bajajReviewDate, message: 'Task Approved by Bajaj.'})
+    if(this.props.task.approvalSentDate) timelineArr.push({date: this.props.task.approvalSentDate, message: 'Task sent to Tata for approval.'})
+    if(this.props.task.bajajReviewDate) timelineArr.push({date: this.props.task.bajajReviewDate, message: 'Task Approved by Tata.'})
     if(this.props.task.designDoneDate) timelineArr.push({date: this.props.task.designDoneDate, message: `Designing Done By ${this.props.task.designUser ? this.props.task.designUser.name : 'Admin'}.`})
 
     return timelineArr.map((timeline,key) => {

@@ -174,7 +174,7 @@ class TaskSingle extends Component {
           />
         </div>
         <div className="form-group">
-          <label>Bajaj Review Date:</label>
+          <label>Review Date:</label>
           <DatePicker
             className="mr-3"
             selected={this.state.bajajReviewDate}

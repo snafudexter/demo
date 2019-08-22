@@ -38,7 +38,7 @@ class LogInForm extends Component {
           password: this.state.password,
         },
       }).then((res) => {
-        localStorage.setItem('blaze-auth-token',res.data.login.token);
+        localStorage.setItem('blaze-tata-auth-token',res.data.login.token);
         window.location.href="/dashboard"
         // this.props.history.replace('/branding/view');
       })

@@ -29,12 +29,12 @@ class Container extends Component {
     //   applicationServerKey: urlBase64ToUint8Array(publicVapidKey)
     // })
 
-    let subs = await localStorage.getItem('subs');
-    subs = JSON.parse(subs)
-    await this.props.updateNotificationObject({variables:{
-      id: this.props.user.id,
-      notificationObject: JSON.stringify(subs)
-    }})
+    // let subs = await localStorage.getItem('subs');
+    // subs = JSON.parse(subs)
+    // await this.props.updateNotificationObject({variables:{
+    //   id: this.props.user.id,
+    //   notificationObject: JSON.stringify(subs)
+    // }})
   }
 
   render() {
@@ -53,7 +53,7 @@ class Container extends Component {
       return <div />;
     }
 
-    this.register();
+    // this.register();
 
     // Conditionally rendering header, For ex. If a user was PRINTER he should not see the header
     return (

@@ -15,7 +15,7 @@ const httpLink = createHttpLink({
 });
 
 const authLink = setContext((_, { headers }) => {
-  const token = localStorage.getItem('blaze-auth-token');
+  const token = localStorage.getItem('blaze-tata-auth-token');
   return {
     headers: {
       ...headers,

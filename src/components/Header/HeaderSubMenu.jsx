@@ -7,7 +7,7 @@ class HeaderSubMenu extends Component {
 		dropDown: false
   };
   logout = () => {
-    localStorage.removeItem('blaze-auth-token');
+    localStorage.removeItem('blaze-tata-auth-token');
     window.location.reload();
   }
 	render() {

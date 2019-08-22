@@ -124,7 +124,7 @@ class PrintingDoneTableWrapper extends Component {
 			},
       {
 				key: 'bajajReviewDate',
-				name: 'Bajaj Review Date',
+				name: 'Review Date',
 				filterable: true,
         resizable: true,
         width: 100

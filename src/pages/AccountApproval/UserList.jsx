@@ -62,7 +62,7 @@ class UserList extends Component{
         }
         
         var d = {};
-        if(this.state.role.value==='BAJAJ')
+        if(this.state.role.value==='TATA')
         {
           d = {
               id:this.state.currentId,
@@ -140,7 +140,7 @@ class UserList extends Component{
 				value={this.state.role}
 				options=
                     {[
-                        { value: 'BAJAJ', label: 'BAJAJ' },
+                        { value: 'TATA', label: 'TATA' },
                         { value: 'RECCE', label: 'RECCE' },
                         { value: 'DESIGNER', label: 'DESIGNER' },
                         { value: 'PRINTER', label: 'PRINTER' },
